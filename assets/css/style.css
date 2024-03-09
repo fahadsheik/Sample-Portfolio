@@ -1211,6 +1211,48 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+/* Sites Page */
+.sites-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.sites-text a {
+  margin-bottom: 15px;
+  color: inherit; 
+  text-decoration: none; 
+}
+
+.sites-text a:hover {
+  text-decoration: underline; 
+}
+
+.sites-text li {
+  margin-bottom: 15px;
+  list-style: none; 
+}
+
+.sites .article-title {
+  margin-bottom: 20px;
+}
+
+.about .article-title {
+  margin-bottom: 15px;
+}
+
+
+
+.page-section {
+  display: none;
+}
+
+.sites.page-section {
+  display: block;
+}
+
 
 
 /*-----------------------------------*\
